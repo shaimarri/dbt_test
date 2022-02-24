@@ -1,0 +1,8 @@
+version: 2
+sources:  
+ - name: DWDB01
+   database: AIRBYTE_DATABASE
+   schema: AIRBYTE_SCHEMA    
+   tables:      
+    - name: PRESTG_BL_BIB_STATS_JSON_VW
+    - name: DW_CUSTOMER
